@@ -1,0 +1,484 @@
+.app {
+    width: 100%;
+    height: 3243px;
+    position: relative;
+    background-color: #000;
+    text-align: center;
+    font-size: 72px;
+    color: #fff;
+    font-family: 'Space Grotesk';
+}
+.hero {
+    position: absolute;
+    top: 203.25px;
+    left: 102.5px;
+    width: 896px;
+    height: 550.5px;
+}
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 896px;
+    height: 208px;
+    font-family: Syne;
+}
+.heading-1 {
+    position: absolute;
+    top: 0px;
+    left: 217.25px;
+    background-color: #ef0b48;
+    width: 461.5px;
+    height: 96px;
+}
+.hi-im-farah {
+    position: absolute;
+    top: 11.5px;
+    left: 24px;
+    line-height: 72px;
+}
+.paragraph {
+    position: absolute;
+    top: 112px;
+    left: 0px;
+    width: 896px;
+    height: 96px;
+    font-size: 48px;
+    font-family: 'Space Grotesk';
+}
+.a-designer-marketer {
+    position: absolute;
+    top: -0.5px;
+    left: 29.78px;
+    line-height: 48px;
+    display: inline-block;
+    width: 837px;
+}
+.paragraph2 {
+    position: absolute;
+    top: 240px;
+    left: 112px;
+    width: 672px;
+    height: 144px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.im-passionate-about {
+    position: absolute;
+    top: 32px;
+    left: 19.71px;
+    line-height: 28px;
+    display: inline-block;
+    width: 633px;
+}
+.container2 {
+    position: absolute;
+    top: 416px;
+    left: 0px;
+    width: 896px;
+    height: 134.5px;
+    font-size: 16px;
+    color: #fd3e71;
+}
+.paragraph3 {
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    width: 896px;
+    height: 24px;
+}
+.check-out-some {
+    position: absolute;
+    top: 0px;
+    left: 302.65px;
+    line-height: 24px;
+}
+.button-icon {
+    position: absolute;
+    top: 98.89px;
+    left: 436px;
+    width: 24px;
+    height: 24px;
+}
+.projectsgrid {
+    position: absolute;
+    top: 957px;
+    left: 48px;
+    width: 1005px;
+    height: 1850.6px;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.paragraph4 {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    width: 672px;
+    height: 48px;
+    flex-shrink: 0;
+}
+.a-selection-of {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 24px;
+    display: inline-block;
+    width: 642px;
+}
+.container3 {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    width: 1005px;
+    height: 2049px;
+    display: grid;
+    grid-template-rows: ;
+    grid-template-columns: ;
+    justify-content: start;
+    align-content: start;
+    gap: 0px;
+    flex-shrink: 0;
+    font-size: 14px;
+    color: #fd3e71;
+}
+.button {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 482px;
+    overflow: hidden;
+}
+.container4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 486.5px;
+    height: 364.9px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.image-scout-icon {
+    align-self: stretch;
+    height: 364.9px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.container5 {
+    position: absolute;
+    top: 365px;
+    left: 0px;
+    width: 487px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.paragraph5 {
+    align-self: stretch;
+    height: 20px;
+    position: relative;
+}
+.experience-design {
+    position: absolute;
+    top: -0.12px;
+    left: 0px;
+    line-height: 20px;
+}
+.heading-3 {
+    align-self: stretch;
+    height: 36px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px;
+    color: #fff;
+    font-family: Syne;
+}
+.scout {
+    flex: 1;
+    position: relative;
+    line-height: 36px;
+}
+.button2 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 518.5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 482px;
+    overflow: hidden;
+}
+.image-2-icon {
+    position: absolute;
+    top: 0px;
+    left: 0.5px;
+    width: 486px;
+    height: 365px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.container6 {
+    position: absolute;
+    top: 364.88px;
+    left: -0.5px;
+    width: 486.5px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.branding-and-interaction {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+}
+.paragraph7 {
+    align-self: stretch;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.zor-logo-1-1 {
+    position: absolute;
+    top: -4px;
+    left: 58px;
+    width: 369px;
+    height: 369px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.button3 {
+    width: 100%;
+    position: absolute;
+    top: 1040.5px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 482px;
+    overflow: hidden;
+}
+.workcover-01-1 {
+    position: absolute;
+    top: 0.5px;
+    left: 1px;
+    background-color: #ba4653;
+    width: 485px;
+    height: 365px;
+}
+.container7 {
+    position: absolute;
+    top: 365.25px;
+    left: 0px;
+    width: 487px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.graphic-design {
+    position: absolute;
+    top: -0.37px;
+    left: 0px;
+    line-height: 20px;
+}
+.image-3-icon {
+    position: absolute;
+    top: 16.75px;
+    left: 82px;
+    width: 321px;
+    height: 332px;
+    object-fit: cover;
+}
+.button4 {
+    width: 100%;
+    position: absolute;
+    top: 1040.5px;
+    left: 518.5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 481px;
+    overflow: hidden;
+}
+.container-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 486.5px;
+    height: 364.9px;
+    object-fit: cover;
+}
+.container8 {
+    position: absolute;
+    top: 364.5px;
+    left: 0px;
+    width: 487px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.button5 {
+    width: 100%;
+    position: absolute;
+    top: 1560.75px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 481px;
+    overflow: hidden;
+}
+.image-6-icon {
+    position: absolute;
+    top: -0.5px;
+    left: -0.5px;
+    width: 486.5px;
+    height: 364.9px;
+    object-fit: cover;
+}
+.container9 {
+    position: absolute;
+    top: 364px;
+    left: 0px;
+    width: 486px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.interaction-design {
+    position: absolute;
+    top: 0.38px;
+    left: -0.5px;
+    line-height: 20px;
+}
+.button6 {
+    width: 100%;
+    position: absolute;
+    top: 1560.75px;
+    left: 518.5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 482px;
+    overflow: hidden;
+}
+.image-sound-asleep {
+    align-self: stretch;
+    height: 364.9px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.image-7-icon {
+    position: absolute;
+    top: 36.25px;
+    left: 0px;
+    width: 481px;
+    height: 289px;
+    object-fit: cover;
+}
+.container11 {
+    position: absolute;
+    top: 365.38px;
+    left: 0px;
+    width: 487px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.button7 {
+    width: 100%;
+    position: absolute;
+    top: 520.25px;
+    left: 518.5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 482px;
+    overflow: hidden;
+}
+.container12 {
+    position: absolute;
+    top: 365.38px;
+    left: 0.5px;
+    width: 486px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.image-5-icon {
+    position: absolute;
+    top: -4.25px;
+    left: 0.5px;
+    width: 476px;
+    height: 365px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.button8 {
+    width: 100%;
+    position: absolute;
+    top: 520.25px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 482px;
+    overflow: hidden;
+}
+.image-4-icon {
+    position: absolute;
+    top: -4.25px;
+    left: 0px;
+    width: 487px;
+    height: 373px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.container13 {
+    position: absolute;
+    top: 365px;
+    left: 0px;
+    width: 486px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.graphic-design4 {
+    position: absolute;
+    top: -0.37px;
+    left: -0.5px;
+    line-height: 20px;
+}
+
