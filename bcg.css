@@ -1,576 +1,429 @@
-.bcg {
-    width: 100%;
-    height: 4196px;
-    position: relative;
-    background-color: #fff;
-    text-align: left;
-    font-size: 36px;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: Syne;
-}
-.projectdetail {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #000;
-    width: 1101px;
-    height: 4196px;
-}
-.container {
-    position: absolute;
-    top: 128px;
-    left: 48px;
-    width: 1005px;
-    height: 188px;
-    flex-shrink: 0;
-    text-align: center;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Space Grotesk';
-}
-.button {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 129.1px;
-    height: 24px;
-}
-.icon {
-    position: absolute;
-    top: 2px;
-    left: 0px;
-    width: 20px;
-    height: 20px;
-}
-.back-to-work {
-    position: absolute;
-    top: 0px;
-    left: 28px;
-    line-height: 24px;
-}
-.container2 {
-    position: absolute;
-    top: 56px;
-    left: 0px;
-    width: 1005px;
-    height: 132px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    text-align: left;
-    font-size: 72px;
-    color: #fd3e71;
-    font-family: Syne;
-}
-.heading-1 {
-    align-self: stretch;
-    height: 72px;
-    position: relative;
-}
-.bcg-x {
-    position: absolute;
-    top: -0.5px;
-    left: 0px;
-    line-height: 72px;
-}
-.paragraph {
-    align-self: stretch;
-    height: 36px;
-    position: relative;
-    font-size: 30px;
-    color: rgba(255, 255, 255, 0.9);
-    font-family: 'Space Grotesk';
-}
-.graphic-design-and {
-    position: absolute;
-    top: -0.5px;
-    left: 0px;
-    line-height: 36px;
-}
-.container3 {
-    position: absolute;
-    top: 363px;
-    left: 48px;
-    background-color: rgba(255, 255, 255, 0.05);
-    width: 1005px;
-    height: 116px;
-    flex-shrink: 0;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: 'Space Grotesk';
-}
-.container4 {
-    position: absolute;
-    top: 32px;
-    left: 32px;
-    width: 292.3px;
-    height: 52px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
-.paragraph2 {
-    align-self: stretch;
-    height: 20px;
-    position: relative;
-}
-.duration {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    line-height: 20px;
-}
-.paragraph3 {
-    align-self: stretch;
-    height: 24px;
-    position: relative;
-    font-size: 16px;
-    color: #fff;
-}
-.months {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    line-height: 24px;
-}
-.container5 {
-    position: absolute;
-    top: 32px;
-    left: 356.33px;
-    width: 292.3px;
-    height: 52px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
-.container6 {
-    position: absolute;
-    top: 529px;
-    left: 47px;
-    width: 1005px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    flex-shrink: 0;
-}
-.heading-2 {
-    align-self: stretch;
-    height: 40px;
-    position: relative;
-    flex-shrink: 0;
-}
-.overview {
-    position: absolute;
-    top: -1px;
-    left: 0px;
-    line-height: 40px;
-}
-.paragraph-wrapper {
-    align-self: stretch;
-    height: 32.5px;
-    position: relative;
-    flex-shrink: 0;
-    font-size: 20px;
-    font-family: 'Space Grotesk';
-}
-.paragraph6 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1005px;
-    height: 32.5px;
-}
-.a-mobile-first-platform {
-    position: absolute;
-    top: 1px;
-    left: 0px;
-    line-height: 32.5px;
-    display: inline-block;
-    width: 1005px;
-    flex-shrink: 0;
-}
-.container7 {
-    position: absolute;
-    top: 728px;
-    left: 47px;
-    width: 1005px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    flex-shrink: 0;
-}
-.a-mobile-first-platform2 {
-    position: absolute;
-    top: 1px;
-    left: 0px;
-    line-height: 32.5px;
-    white-space: pre-wrap;
-    display: inline-block;
-    width: 1005px;
-    flex-shrink: 0;
-}
-.container8 {
-    position: absolute;
-    top: 1407px;
-    left: 47px;
-    width: 1005px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    flex-shrink: 0;
-}
-.container9 {
-    position: absolute;
-    top: 2751px;
-    left: 47px;
-    width: 1005px;
-    height: 161.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    flex-shrink: 0;
-}
-.heading-24 {
-    align-self: stretch;
-    height: 40px;
-    position: relative;
-}
-.paragraph9 {
-    align-self: stretch;
-    height: 97.5px;
-    position: relative;
-    font-size: 20px;
-    font-family: 'Space Grotesk';
-}
-.this-project-reinforced {
-    position: absolute;
-    top: 0.5px;
-    left: 0px;
-    line-height: 32.5px;
-    display: inline-block;
-    width: 998px;
-    flex-shrink: 0;
-}
-.marketplaceaccvideo {
-    position: absolute;
-    top: 97px;
-    left: calc(50% - 503.5px);
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 1006px;
-    height: 453px;
-    flex-shrink: 0;
-}
-.container10 {
-    position: absolute;
-    top: 3493px;
-    left: 47px;
-    width: 1005px;
-    height: 161.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    flex-shrink: 0;
-}
-.paragraph10 {
-    align-self: stretch;
-    height: 97.5px;
-    position: relative;
-}
-.navigation {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    box-sizing: border-box;
-    width: 1101px;
-    height: 89px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 0px 1px;
-    flex-shrink: 0;
-    text-align: center;
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Space Grotesk';
-}
-.container11 {
-    align-self: stretch;
-    height: 88px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 48px;
-    box-sizing: border-box;
-    gap: 20px;
-}
-.button2 {
-    height: 40px;
-    width: 127.4px;
-    position: relative;
-    background-color: #ef0b48;
-}
-.farah-caban {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    line-height: 24px;
-}
-.container12 {
-    height: 24px;
-    width: 145.1px;
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    color: rgba(255, 255, 255, 0.7);
-}
-.button3 {
-    height: 24px;
-    width: 38.3px;
-    position: relative;
-}
-.button4 {
-    height: 24px;
-    flex: 1;
-    position: relative;
-    color: #fff;
-}
-.microsoft1-parent {
-    position: absolute;
-    top: 1624px;
-    left: 48px;
-    width: 1053px;
-    height: 386px;
-    overflow-x: auto;
-    display: flex;
-    align-items: flex-start;
-    gap: 36px;
-    flex-shrink: 0;
-}
-.microsoft1-icon {
-    height: 386px;
-    width: 303px;
-    position: relative;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.microsoft2-icon {
-    height: 386px;
-    width: 304px;
-    position: relative;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.pencil1-parent {
-    position: absolute;
-    top: 2263px;
-    left: 48px;
-    width: 1053px;
-    height: 386px;
-    overflow-x: auto;
-    display: flex;
-    align-items: flex-start;
-    gap: 36px;
-    flex-shrink: 0;
-}
-.a11-parent {
-    position: absolute;
-    top: 3606px;
-    left: 48px;
-    width: 1017px;
-    height: 231px;
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    flex-shrink: 0;
-}
-.a11-icon {
-    height: 231px;
-    width: 181px;
-    position: relative;
-    object-fit: cover;
-}
-.a12-icon {
-    height: 231px;
-    width: 184px;
-    position: relative;
-    object-fit: cover;
-}
-.a13-icon {
-    height: 231px;
-    width: 182px;
-    position: relative;
-    object-fit: cover;
-}
-.a14-icon {
-    height: 231px;
-    width: 183px;
-    position: relative;
-    object-fit: cover;
-}
-.merch1-parent {
-    position: absolute;
-    top: 3868px;
-    left: 48px;
-    width: 1037px;
-    height: 238px;
-    overflow-x: auto;
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    flex-shrink: 0;
-}
-.merch1-icon {
-    height: 231px;
-    width: 181px;
-    position: relative;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.merch2-icon {
-    height: 231px;
-    width: 184px;
-    position: relative;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.merch3-icon {
-    height: 231px;
-    width: 182px;
-    position: relative;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.merch4-icon {
-    height: 231px;
-    width: 183px;
-    position: relative;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.a-mobile-first-platform-container {
-    position: absolute;
-    top: 2052px;
-    left: 48px;
-    font-size: 20px;
-    line-height: 32.5px;
-    font-family: 'Space Grotesk';
-    display: inline-block;
-    width: 1005px;
-    flex-shrink: 0;
-}
-.microsoft-post-performance {
-    margin: 0;
-}
-.k-impressions-270-above-aver {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    padding-left: 27px;
-}
-.k-total-engagements {
-    margin-bottom: 0px;
-}
-.frame-parent {
-    position: absolute;
-    top: 940px;
-    left: 48px;
-    width: 1322px;
-    height: 386px;
-    overflow-x: auto;
-    flex-shrink: 0;
-}
-.merchptmu1-parent {
-    position: absolute;
-    top: 0px;
-    left: 1360px;
-    width: 1323px;
-    height: 386px;
-    flex-shrink: 0;
-}
-.merchptmu1-icon {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 303px;
-    height: 386px;
-    object-fit: cover;
-}
-.merchptmu2-icon {
-    position: absolute;
-    top: 0px;
-    left: 339px;
-    width: 304px;
-    height: 386px;
-    object-fit: cover;
-}
-.merchptmu3-icon {
-    position: absolute;
-    top: 0px;
-    left: 679px;
-    width: 304px;
-    height: 386px;
-    object-fit: cover;
-}
-.merchptmu4-icon {
-    position: absolute;
-    top: 0px;
-    left: 1019px;
-    width: 304px;
-    height: 386px;
-    object-fit: cover;
-}
-.autoptmu1-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1322px;
-    height: 386px;
-    flex-shrink: 0;
-}
-.autoptmu3-icon {
-    position: absolute;
-    top: 0px;
-    left: 679px;
-    width: 303px;
-    height: 386px;
-    object-fit: cover;
-}
-.autoptmu4-icon {
-    position: absolute;
-    top: 0px;
-    left: 1018px;
-    width: 304px;
-    height: 386px;
-    object-fit: cover;
-}
-.sbptmu1-parent {
-    position: absolute;
-    top: 0px;
-    left: 4081px;
-    width: 1322px;
-    height: 386px;
-    flex-shrink: 0;
-}
-.b2bptmu1-parent {
-    position: absolute;
-    top: 0px;
-    left: 2721px;
-    width: 1322px;
-    height: 386px;
-    flex-shrink: 0;
+/* ---------- base ---------- */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: rgba(255,255,255,0.85);
+  font-family: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
+.bcg {
+  width: 100%;
+  min-height: 100vh;
+  background: #0b0b0b;
+}
+
+/* main page wrapper (centers like screenshot) */
+.projectdetail{
+  /* REMOVE absolute sizing */
+  position: relative;
+  width: 100%;
+  background: #0b0b0b;
+
+  /* subtle red glow like screenshot */
+  background:
+    radial-gradient(900px 900px at 45% 28%, rgba(253, 62, 113, 0.18), rgba(0,0,0,0) 60%),
+    radial-gradient(900px 900px at 60% 85%, rgba(253, 62, 113, 0.10), rgba(0,0,0,0) 65%),
+    #0b0b0b;
+}
+
+/* ---------- sticky nav ---------- */
+.navigation{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  width: 100%;
+  height: auto;
+
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+
+  /* remove the column layout export */
+  display: block;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+.container11{
+  max-width: 1101px;
+  margin: 0 auto;
+  height: 88px;
+  padding: 0 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.button2{
+  height: 40px;
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+
+  background: #ef0b48;
+  border-radius: 2px;
+  position: relative;
+}
+.farah-caban{
+  position: static;
+  line-height: 24px;
+  color: #fff;
+}
+
+.container12{
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: rgba(255,255,255,0.7);
+}
+.button3, .button4{
+  width: auto;
+  height: auto;
+}
+.button4 .months, .button3 .months{ color: inherit; }
+
+/* ---------- page content width + spacing ---------- */
+.container{
+  /* top header block */
+  max-width: 1101px;
+  margin: 0 auto;
+  padding: 128px 48px 0 48px;
+
+  /* remove absolute */
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  text-align: left;
+  font-size: 16px;
+  color: rgba(255,255,255,0.7);
+}
+
+.button{
+  position: relative;
+  width: fit-content;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255,255,255,0.7);
+}
+.icon{
+  position: static;
+  width: 20px;
+  height: 20px;
+}
+.back-to-work{
+  position: static;
+  line-height: 24px;
+}
+
+.container2{
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  margin-top: 56px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+
+  text-align: left;
+  color: #fd3e71;
+  font-family: Syne, system-ui, sans-serif;
+}
+.heading-1{ height: auto; }
+.bcg-x{
+  position: static;
+  font-size: 72px;
+  line-height: 1;
+}
+.paragraph{
+  position: relative;
+  height: auto;
+  font-size: 30px;
+  color: rgba(255,255,255,0.9);
+  font-family: "Space Grotesk", sans-serif;
+}
+.graphic-design-and{
+  position: static;
+  line-height: 1.2;
+}
+
+/* ---------- meta card (Duration / Role) ---------- */
+.container3{
+  max-width: 1101px;
+  margin: 36px auto 0 auto;
+  padding: 0 48px;
+
+  /* remove abs */
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px;
+}
+
+.container3::before{
+  content:"";
+  display:block;
+  height: 0;
+}
+
+.container4, .container5{
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+.container3-inner{
+  /* add this wrapper in HTML (see below) */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 32px;
+}
+
+.paragraph2{
+  height: auto;
+  position: relative;
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+}
+.duration{
+  position: static;
+  line-height: 20px;
+}
+.paragraph3{
+  height: auto;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+}
+.months{
+  position: static;
+  line-height: 24px;
+}
+
+/* ---------- section blocks ---------- */
+.container6, .container7, .container8, .container9, .container10{
+  max-width: 1101px;
+  margin: 48px auto 0 auto;
+  padding: 0 48px;
+
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.heading-2, .heading-24{
+  position: relative;
+  height: auto;
+  width: 100%;
+  font-family: Syne, system-ui, sans-serif;
+  color: rgba(255,255,255,0.8);
+}
+
+.overview{
+  position: static;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.paragraph-wrapper, .paragraph9, .paragraph10{
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  line-height: 32.5px;
+  color: rgba(255,255,255,0.8);
+}
+
+.paragraph6, .this-project-reinforced{
+  position: static;
+  width: 100%;
+}
+
+.a-mobile-first-platform,
+.a-mobile-first-platform2{
+  position: static;
+  width: 100%;
+  display: block;
+  line-height: 32.5px;
+}
+
+/* ---------- carousels (THIS is the big fix) ---------- */
+.frame-parent,
+.microsoft1-parent,
+.pencil1-parent,
+.merch1-parent{
+  /* remove absolute placement */
+  position: relative;
+  left: auto;
+  top: auto;
+
+  max-width: 1101px;
+  margin: 24px auto 0 auto;
+  padding: 0 48px;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  gap: 36px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 48px;
+  padding-bottom: 10px;
+}
+
+/* make each image/card snap */
+.frame-parent > * ,
+.microsoft1-parent img,
+.pencil1-parent img,
+.merch1-parent img{
+  scroll-snap-align: start;
+}
+
+/* hide scrollbar (optional) */
+.frame-parent::-webkit-scrollbar,
+.microsoft1-parent::-webkit-scrollbar,
+.pencil1-parent::-webkit-scrollbar,
+.merch1-parent::-webkit-scrollbar{
+  height: 8px;
+}
+.frame-parent::-webkit-scrollbar-thumb,
+.microsoft1-parent::-webkit-scrollbar-thumb,
+.pencil1-parent::-webkit-scrollbar-thumb,
+.merch1-parent::-webkit-scrollbar-thumb{
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+}
+
+/* cards sizing like screenshot */
+.microsoft1-icon,
+.microsoft2-icon{
+  width: 303px;
+  height: 386px;
+  object-fit: cover;
+  flex: 0 0 auto;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.a11-parent{
+  max-width: 1101px;
+  margin: 24px auto 0 auto;
+  padding: 0 48px;
+
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  gap: 25px;
+  align-items: center;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 48px;
+  padding-bottom: 10px;
+}
+.a11-icon, .a12-icon, .a13-icon, .a14-icon,
+.merch1-icon, .merch2-icon, .merch3-icon, .merch4-icon{
+  height: 231px;
+  width: 182px;
+  object-fit: cover;
+  flex: 0 0 auto;
+
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
+  scroll-snap-align: start;
+}
+
+/* ---------- marketplace video frame ---------- */
+.marketplaceaccvideo{
+  width: 100%;
+  height: 453px;
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 6px;
+  background: rgba(0,0,0,0.2);
+}
+
+/* ---------- performance text block ---------- */
+.a-mobile-first-platform-container{
+  max-width: 1101px;
+  margin: 24px auto 0 auto;
+  padding: 0 48px;
+
+  position: relative;
+  width: 100%;
+
+  font-size: 20px;
+  line-height: 32.5px;
+  color: rgba(255,255,255,0.8);
+}
+.a-mobile-first-platform-container ul{
+  margin: 12px 0 0 20px;
+  padding: 0;
+}
+.a-mobile-first-platform-container li{
+  margin: 6px 0;
+}
+
+/* ---------- remove the giant absolute nested groups from export ---------- */
+.merchptmu1-parent,
+.autoptmu1-parent,
+.sbptmu1-parent,
+.b2bptmu1-parent{
+  position: static;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+
+/* make the multi-group frame just one carousel */
+.frame-parent{
+  /* if you keep the groups inside, still scrolls horizontally */
+  align-items: flex-start;
+}
+.merchptmu1-parent, .autoptmu1-parent, .sbptmu1-parent, .b2bptmu1-parent{
+  display: flex;
+  gap: 36px;
+  flex: 0 0 auto;
+}
+.merchptmu1-icon, .merchptmu2-icon, .merchptmu3-icon, .merchptmu4-icon,
+.autoptmu3-icon, .autoptmu4-icon{
+  position: static;
+  width: 303px;
+  height: 386px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.page{
+    max-width: 1101px;
+    margin: 0 auto;
+  }
+  
