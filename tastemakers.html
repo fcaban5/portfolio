@@ -1,97 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="./index.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@400&display=swap" />
-  	
-  	
-  	
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Fonts (single request, correct families/weights) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./tastemakers.css" />
+  <title>Tastemakers Magazine — Farah Caban</title>
 </head>
+
 <body>
-  	
-  	<div class="tastemakers">
-    		<div class="projectdetail">
-      			<div class="navigation">
-        				<div class="container">
-          					<div class="button">
-            						<div class="farah-caban">Farah Caban</div>
-          					</div>
-          					<div class="container2">
-            						<div class="button2">
-              							<div class="work">Work</div>
-            						</div>
-            						<div class="button3">
-              							<div class="work">About Me</div>
-            						</div>
-          					</div>
-        				</div>
-      			</div>
-      			<div class="title">
-        				<div class="button4">
-          					<img class="icon" alt="">
-          					
-          					<div class="back-to-work">Back to Work</div>
-        				</div>
-        				<div class="container3">
-          					<div class="heading-1">
-            						<div class="tastemakers-magazine">Tastemakers Magazine</div>
-          					</div>
-          					<div class="paragraph">
-            						<div class="graphic-and-print">Graphic and Print Design</div>
-          					</div>
-        				</div>
-      			</div>
-      			<div class="context">
-        				<div class="container4">
-          					<div class="paragraph2">
-            						<div class="duration">Duration</div>
-          					</div>
-          					<div class="paragraph3">
-            						<div class="work">1.5 years</div>
-          					</div>
-        				</div>
-        				<div class="container5">
-          					<div class="paragraph2">
-            						<div class="duration">Role</div>
-          					</div>
-          					<div class="paragraph3">
-            						<div class="work">Designer</div>
-          					</div>
-        				</div>
-        				<div class="container6">
-        				</div>
-      			</div>
-      			<div class="classical-parent">
-        				<img class="classical-icon" alt="">
-        				
-        				<img class="bandcamp-icon" alt="">
-        				
-        				<img class="bracket-icon" alt="">
-        				
-        				<img class="winkler-icon" alt="">
-        				
-        				<img class="charlixcx-icon" alt="">
-        				
-        				<img class="cherlloyd-icon" alt="">
-        				
-      			</div>
-      			<div class="heading-2-parent">
-        				<div class="heading-2">
-          					<div class="overview">Overview</div>
-        				</div>
-        				<div class="paragraph6">
-          					<div class="a-mobile-first-platform">As a designer for Tastemakers, I selected a student-written, music-centered article and designed a full editorial spread for print. The magazine was published twice each semester, requiring layouts that balanced visual impact with readability across multiple issues.</div>
-        				</div>
-      			</div>
-    		</div>
-  	</div>
-  	
-  	
-  	
-  	
+  <!-- Top Nav -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="./index.html" aria-label="Go to homepage">
+        Farah Caban
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="./index.html#work">Work</a>
+        <a class="nav__link nav__link--active" href="./about.html">About Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <!-- Back -->
+    <a class="back" href="./index.html#work" aria-label="Back to Work">
+      <span class="back__icon" aria-hidden="true">←</span>
+      Back to Work
+    </a>
+
+    <!-- Title -->
+    <section class="hero">
+      <h1 class="hero__title">Tastemakers Magazine</h1>
+      <p class="hero__subtitle">Graphic and Print Design</p>
+    </section>
+
+    <!-- Context card -->
+    <section class="context" aria-label="Project details">
+      <div class="context__item">
+        <div class="context__label">Duration</div>
+        <div class="context__value">1.5 years</div>
+      </div>
+
+      <div class="context__item">
+        <div class="context__label">Role</div>
+        <div class="context__value">Designer</div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="overview">
+      <h2 class="section-title">Overview</h2>
+      <p class="overview__text">
+        As a designer for Tastemakers, I selected a student-written, music-centered article and designed a full editorial spread for print. The magazine was published twice each semester, requiring layouts that balanced visual impact with readability across multiple issues.
+      </p>
+    </section>
+
+    <!-- Image Grid -->
+    <section class="gallery" aria-label="Magazine spreads">
+      <!-- IMPORTANT: Replace the src values with your real asset paths -->
+      <img class="gallery__img" src="./assets/tastemakers/classical.jpg" alt="Tastemakers spread: Classical samples layout" />
+      <img class="gallery__img" src="./assets/tastemakers/bandcamp.jpg" alt="Tastemakers spread: Before the Algorithm layout" />
+      <img class="gallery__img" src="./assets/tastemakers/bracket.jpg" alt="Tastemakers spread: Discography Bracket layout" />
+      <img class="gallery__img" src="./assets/tastemakers/winkler.jpg" alt="Tastemakers spread: Winkler layout" />
+      <img class="gallery__img" src="./assets/tastemakers/charlixcx.jpg" alt="Tastemakers spread: Charli XCX layout" />
+      <img class="gallery__img" src="./assets/tastemakers/cherlloyd.jpg" alt="Tastemakers spread: Cher Lloyd layout" />
+    </section>
+  </main>
 </body>
 </html>
