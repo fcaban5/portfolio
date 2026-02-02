@@ -1,0 +1,123 @@
+/* Import unified base styles */
+@import url('./unified.css');
+
+/* =========================
+   SCOUT-SPECIFIC STYLES
+   ========================= */
+
+/* 2-column image grid */
+.image-grid-2col {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.image-grid-2col img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Process layout with text + images side by side */
+.process-layout {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.process-text {
+  position: sticky;
+  top: 120px;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.process-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Final steps grid - 3 columns */
+.steps-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.step-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
+  margin-bottom: 12px;
+}
+
+.step-double {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+
+.step-double img {
+  margin-bottom: 0;
+}
+
+.step-caption {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255,255,255,0.6);
+  margin: 0;
+}
+
+/* Context card with 3 items */
+.context-card {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 900px) {
+  .process-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .process-text {
+    position: static;
+  }
+  
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .image-grid-2col {
+    grid-template-columns: 1fr;
+  }
+  
+  .context-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}

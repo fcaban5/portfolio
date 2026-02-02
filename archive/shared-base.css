@@ -1,0 +1,514 @@
+/* =========================
+   UNIFIED BASE - ALL PAGES
+   ========================= */
+
+   :root {
+    --bg: #000;
+    --text: #fff;
+    --muted: rgba(255,255,255,0.7);
+    --muted2: rgba(255,255,255,0.5);
+    --muted3: rgba(255,255,255,0.1);
+    --card: rgba(255,255,255,0.05);
+    --pink: #fd3e71;
+    --brand: #ef0b48;
+    
+    --container-max: 1101px;
+    --container-padding: 48px;
+    --nav-height: 88px;
+    --header-top: 56px;
+  }
+  
+  /* Reset */
+  * { 
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body { 
+    height: 100%;
+  }
+  
+  html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+  }
+  
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* =========================
+     NAVIGATION - IDENTICAL ACROSS ALL PAGES
+     ========================= */
+  
+  .navigation,
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--muted3);
+  }
+  
+  /* Nav inner container - handles ALL variations */
+  .navigation > .container,
+  .navigation > .container11,
+  .navigation .nav__inner,
+  .nav > .container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    height: var(--nav-height);
+    padding: 0 var(--container-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Brand button */
+  .button2,
+  .brand {
+    height: 40px;
+    padding: 0 16px;
+    display: inline-flex;
+    align-items: center;
+    background: var(--brand);
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .farah-caban {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  /* Nav links container */
+  .container12,
+  .nav__links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  /* Individual nav links */
+  .button3,
+  .button4,
+  .nav__link {
+    background: transparent;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .button3 .months,
+  .button4 .months,
+  .nav__link {
+    color: inherit;
+  }
+  
+  .nav__link:hover,
+  .nav__link--active {
+    color: #fff;
+  }
+  
+  /* =========================
+     PAGE WRAPPERS
+     ========================= */
+  
+  .bcg,
+  .projectdetail,
+  .b-side-images,
+  .page {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--bg);
+  }
+  
+  /* BCG specific background glow */
+  .projectdetail {
+    background:
+      radial-gradient(900px 900px at 45% 28%, rgba(253, 62, 113, 0.18), rgba(0,0,0,0) 60%),
+      radial-gradient(900px 900px at 60% 85%, rgba(253, 62, 113, 0.10), rgba(0,0,0,0) 65%),
+      #0b0b0b;
+  }
+  
+  /* =========================
+     HEADER SECTION - UNIFIED
+     ========================= */
+  
+  /* Main header container - works for ALL page types */
+  .title,
+  .projectdetail > main > .container:first-of-type,
+  .page > .title {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding-top: var(--header-top);
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    padding-bottom: 0;
+  }
+  
+  /* Back link */
+  .button,
+  .button4,
+  .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 24px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 56px;
+  }
+  
+  .button:hover,
+  .back:hover {
+    color: #fff;
+  }
+  
+  .icon,
+  .back-arrow,
+  .back__icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .back-to-work {
+    line-height: 24px;
+  }
+  
+  /* Title section */
+  .container2,
+  .container3,
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 0;
+  }
+  
+  .heading-1 {
+    width: 100%;
+  }
+  
+  /* Main title */
+  .b-side,
+  .bcg-x,
+  .hero__title {
+    font-family: Syne, system-ui, sans-serif;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 400;
+    color: var(--pink);
+    margin: 0;
+  }
+  
+  /* Subtitle */
+  .paragraph,
+  .hero__subtitle,
+  .graphic-design-and {
+    font-size: 30px;
+    line-height: 1.2;
+    color: rgba(255,255,255,0.9);
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+  }
+  
+  .interaction-design,
+  .graphic-design-and {
+    display: block;
+  }
+  
+  /* =========================
+     CONTEXT CARD - UNIFIED
+     ========================= */
+  
+  .context,
+  .container3 {
+    max-width: var(--container-max);
+    margin: 36px auto 0 auto;
+    padding: 0 var(--container-padding);
+    width: 100%;
+  }
+  
+  /* Inner card wrapper */
+  .context-inner,
+  .container3-inner {
+    background: var(--card);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 6px;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  /* If context doesn't have inner wrapper, apply styles directly */
+  .context:not(:has(.context-inner)) {
+    background: var(--card);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 6px;
+    padding: 32px var(--container-padding);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  /* Context items */
+  .context__item,
+  .container4,
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  /* Labels */
+  .context__label,
+  .paragraph2,
+  .duration {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--muted2);
+  }
+  
+  /* Values */
+  .context__value,
+  .paragraph3,
+  .months {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  
+  /* =========================
+     CONTENT SECTIONS - UNIFIED
+     ========================= */
+  
+  .overview,
+  .overview-text,
+  .the-process,
+  .process,
+  .research,
+  .research3,
+  .research4,
+  .research5,
+  .research6,
+  .research7,
+  .impact-and-reflection,
+  .container6,
+  .container7,
+  .container8,
+  .container9,
+  .container10 {
+    max-width: var(--container-max);
+    margin: 56px auto 0 auto;
+    padding: 0 var(--container-padding);
+    width: 100%;
+  }
+  
+  /* Section headers */
+  .section-title,
+  .section-header,
+  .heading-2,
+  .heading-24,
+  .overview {
+    font-family: Syne, system-ui, sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    margin: 0 0 16px 0;
+  }
+  
+  /* Body text */
+  .overview__text,
+  .paragraph6,
+  .paragraph-wrapper,
+  .paragraph9,
+  .paragraph10,
+  .a-mobile-first-platform,
+  .a-mobile-first-platform2,
+  .a-mobile-first-platform-container,
+  .a-mobile-first-platform9 {
+    font-size: 20px;
+    line-height: 32.5px;
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+  }
+  
+  /* Subheadings */
+  .the-process2,
+  .the-problem,
+  .sketching-and-ideation {
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 300;
+    font-family: "Titillium Web", system-ui, sans-serif;
+    color: rgba(255,255,255,0.85);
+    margin: 0 0 16px 0;
+  }
+  
+  /* Lists */
+  ul {
+    margin: 16px 0;
+    padding-left: 24px;
+  }
+  
+  li {
+    margin: 8px 0;
+    line-height: 32px;
+  }
+  
+  /* =========================
+     IMAGES - UNIFIED
+     ========================= */
+  
+  .header-image,
+  .process-image-icon,
+  .review-music-icon,
+  .join-forums-icon,
+  .discover-icon,
+  .profiles-icon,
+  .gallery {
+    max-width: var(--container-max);
+    margin: 24px auto;
+    padding: 0 var(--container-padding);
+    width: 100%;
+  }
+  
+  .header-image-child {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.04);
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  
+  .st-image-icon {
+    border: 0;
+    border-radius: 0;
+  }
+  
+  /* =========================
+     SPACING ADJUSTMENTS
+     ========================= */
+  
+  .research3,
+  .research4,
+  .research5,
+  .research6,
+  .research7 {
+    margin-top: 48px;
+  }
+  
+  .impact-and-reflection {
+    margin-top: 56px;
+    padding-bottom: 120px;
+  }
+  
+  /* =========================
+     GALLERY GRID
+     ========================= */
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px 24px;
+  }
+  
+  .gallery__img {
+    width: 100%;
+    aspect-ratio: 487 / 340;
+    object-fit: cover;
+  }
+  
+  /* =========================
+     RESPONSIVE
+     ========================= */
+  
+  @media (max-width: 900px) {
+    :root {
+      --container-padding: 32px;
+    }
+    
+    .b-side,
+    .bcg-x,
+    .hero__title {
+      font-size: 56px;
+      line-height: 56px;
+    }
+    
+    .paragraph,
+    .hero__subtitle {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    
+    .gallery {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    
+    .gallery__img {
+      aspect-ratio: 16 / 9;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    :root {
+      --container-padding: 16px;
+    }
+    
+    .b-side,
+    .bcg-x,
+    .hero__title {
+      font-size: 44px;
+      line-height: 46px;
+    }
+    
+    .paragraph,
+    .hero__subtitle {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    
+    .context-inner,
+    .container3-inner,
+    .context:not(:has(.context-inner)) {
+      grid-template-columns: 1fr;
+      padding: 24px;
+    }
+  }

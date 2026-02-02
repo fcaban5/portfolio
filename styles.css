@@ -1,222 +1,250 @@
 :root{
-    --bg: #000000;
-    --text: #ffffff;
-    --muted: rgba(255,255,255,0.70);
-    --pink: #ef0b48;
-    --accent: #fd3e71;
-  
-    --container: 1100px;
-    --card-bg: rgba(255,255,255,0.05);
-    --card-outline: rgba(255,255,255,0.06);
-  }
-  
-  * { box-sizing: border-box; }
-  
-  html, body { height: 100%; }
-  
-  body{
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  }
-  
-  /* Container */
-  .container{
-    max-width: var(--container);
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-  
-  /* NAV */
-  .nav{
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background: rgba(0,0,0,0.65);
-    backdrop-filter: blur(8px);
-  }
-  
-  .nav__inner{
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-  }
-  
-  .nav__brand{
-    text-decoration: none;
-    color: var(--text);
-    font-family: "Syne", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  }
-  
-  .nav__brand-pill{
-    display: inline-block;
-    padding: 10px 14px;
-    background: var(--pink);
-    border-radius: 0;
-    font-weight: 600;
-  }
-  
-  .nav__links{
-    display: flex;
-    gap: 28px;
-  }
-  
-  .nav__links a{
-    color: var(--text);
-    text-decoration: none;
-    font-size: 14px;
-    opacity: 0.9;
-  }
-  
-  .nav__links a:hover{
-    opacity: 1;
-  }
-  
-  /* HERO */
-  .hero{
-    min-height: calc(100vh - 72px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 88px 0 56px;
-  }
-  
-  .hero__inner{
-    text-align: center;
-  }
-  
-  .hero__title{
-    margin: 0 0 16px;
-    font-family: "Syne", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  }
-  
-  .hero__highlight{
-    display: inline-block;
-    background: var(--pink);
-    padding: 10px 22px;
-    font-size: 72px;
-    line-height: 1.05;
-  }
-  
-  .hero__subtitle{
-    margin: 0 0 18px;
-    font-size: 48px;
-    line-height: 1.1;
-  }
-  
-  .hero__body{
-    margin: 0 auto 26px;
-    max-width: 720px;
-    color: var(--muted);
-    font-size: 18px;
-    line-height: 1.6;
-  }
-  
-  .hero__cta{
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    color: var(--accent);
-    font-size: 16px;
-  }
-  
-  .hero__arrow{
-    display: inline-block;
-    transform: translateY(1px);
-  }
-  
-  /* PROJECTS */
-  .projects{
-    padding: 40px 0 96px;
-  }
-  
-  .projects__intro{
-    margin: 0 0 28px;
-    max-width: 760px;
-    color: var(--muted);
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  
-  .projects__grid{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 28px;
-  }
-  
-  /* CARD */
-  .card{
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    background: var(--card-bg);
-    outline: 1px solid var(--card-outline);
-    overflow: hidden;
-  }
-  
-  .card__media{
-    height: 360px;
-    background: rgba(255,255,255,0.02);
-  }
+  --bg: #000000;
+  --text: #ffffff;
+  --muted: rgba(255,255,255,0.70);
+  --pink: #ef0b48;
+  --accent: #fd3e71;
 
-  .card__media {
-    position: relative;
-    overflow: hidden;
+  --container: 1101px; /* Match unified.css exactly */
+  --card-bg: rgba(255,255,255,0.05);
+  --card-outline: rgba(255,255,255,0.06);
+  --border: rgba(255,255,255,0.08);
+}
+
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
+html, body { height: 100%; }
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+/* Container */
+.container{
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 48px; /* Match project pages exactly */
+}
+
+/* NAV - EXACT MATCH TO PROJECT PAGES */
+.nav{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav__inner{
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__brand{
+  height: 40px;
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  background: var(--pink);
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav__brand-pill{
+  /* No additional styling needed - text goes directly in brand */
+  font-weight: 400;
+}
+
+.nav__links{
+  display: flex;
+  gap: 32px;
+}
+
+.nav__links a{
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav__links a:hover{
+  color: #fff;
+}
+
+/* HERO */
+.hero{
+  min-height: calc(100vh - 88px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 88px 0 56px;
+}
+
+.hero__inner{
+  text-align: center;
+}
+
+.hero__title{
+  margin: 0 0 16px;
+  font-family: "Syne", system-ui, sans-serif;
+}
+
+.hero__highlight{
+  display: inline-block;
+  background: var(--pink);
+  padding: 10px 22px;
+  font-size: 72px;
+  line-height: 1.05;
+}
+
+.hero__subtitle{
+  margin: 0 0 18px;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.hero__body{
+  margin: 0 auto 26px;
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.hero__cta{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--accent);
+  font-size: 16px;
+}
+
+.hero__arrow{
+  display: inline-block;
+  transform: translateY(1px);
+}
+
+/* PROJECTS */
+.projects{
+  padding: 40px 0 96px;
+}
+
+.projects__intro{
+  margin: 0 0 28px;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.projects__grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+/* CARD */
+.card{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--card-bg);
+  outline: 1px solid var(--card-outline);
+  overflow: hidden;
+}
+
+.card__media{
+  height: 360px;
+  background: rgba(255,255,255,0.02);
+  position: relative;
+  overflow: hidden;
+}
+
+/* dark overlay on top of the background image */
+.card__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.card__bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card__logo {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  max-width: 60%;
+  height: auto;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.card__media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card__meta{
+  padding: 18px 18px 0;
+  font-size: 14px;
+  color: var(--accent);
+}
+
+.card__title{
+  padding: 8px 18px 20px;
+  font-family: "Syne", system-ui, sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.card:hover{
+  outline-color: rgba(255,255,255,0.18);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .container {
+    padding: 0 32px;
   }
   
-  /* dark overlay on top of the background image */
-  .card__media::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.25);
-    z-index: 1;
-    pointer-events: none;
+  .projects__grid {
+    grid-template-columns: 1fr;
   }
-  
-  .card__bg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 16px;
   }
-  
-  .card__logo {
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    max-width: 60%;
-    height: auto;
-    z-index: 2;
-    pointer-events: none;
-  }
-  
-  .card__media img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  
-  .card__meta{
-    padding: 18px 18px 0;
-    font-size: 14px;
-    color: var(--accent);
-  }
-  
-  .card__title{
-    padding: 8px 18px 20px;
-    font-family: "Syne", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    font-size: 30px;
-    line-height: 1.2;
-    color: var(--text);
-  }
-  
-  .card:hover{
-    outline-color: rgba(255,255,255,0.18);
-  }
-  
+}
