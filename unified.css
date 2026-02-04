@@ -80,6 +80,7 @@
     color: var(--muted);
     text-decoration: none;
     font-size: 16px;
+    position: relative;
   }
   
   .nav-link:hover {
@@ -339,6 +340,165 @@
   
   .performance-stats {
     margin-top: 24px;
+  }
+  
+  /* =========================
+     ANIMATIONS
+     ========================= */
+  
+  /* Fade in from bottom animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply fade-in to main sections on page load */
+  .header {
+    animation: fadeInUp 0.8s ease-out;
+  }
+  
+  .context-card {
+    animation: fadeInUp 0.8s ease-out 0.2s;
+    animation-fill-mode: backwards;
+  }
+  
+  .content-section {
+    animation: fadeInUp 0.8s ease-out 0.3s;
+    animation-fill-mode: backwards;
+  }
+  
+  /* Scroll-triggered fade in */
+  .fade-in-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .fade-in-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Image hover effects */
+  .carousel img,
+  .gallery-grid img,
+  .wireframe-grid img,
+  .image-container img,
+  .image-grid-2col img,
+  .process-grid img,
+  .steps-grid img,
+  .step-item img,
+  .step-double img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .carousel img:hover,
+  .image-container img:hover {
+    transform: scale(1.02);
+  }
+  
+  .carousel-small img:hover {
+    transform: scale(1.03);
+  }
+  
+  .gallery-grid img:hover,
+  .wireframe-grid img:hover,
+  .image-grid-2col img:hover,
+  .process-grid img:hover,
+  .steps-grid img:hover,
+  .step-item img:hover,
+  .step-double img:hover {
+    transform: scale(1.015);
+  }
+  
+  /* Navigation link underline animation */
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--pink);
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Back link animation */
+  .back-link {
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .back-link:hover {
+    color: var(--pink);
+    transform: translateX(-4px);
+  }
+  
+  .back-icon {
+    transition: transform 0.2s ease;
+    display: inline-block;
+  }
+  
+  .back-link:hover .back-icon {
+    transform: translateX(-4px);
+  }
+  
+  /* Video hover */
+  .video-player {
+    transition: transform 0.3s ease;
+  }
+  
+  .video-player:hover {
+    transform: scale(1.01);
+  }
+  
+  /* Context card hover */
+  .context-card {
+    transition: background 0.3s ease;
+  }
+  
+  .context-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+  
+  /* Smooth scrolling for carousels */
+  .carousel {
+    scroll-behavior: smooth;
+  }
+  
+  /* Carousel group stagger animation */
+  .carousel-group {
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  .carousel-group:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .carousel-group:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .carousel-group:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  
+  .carousel-group:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  
+  .carousel {
+    animation-fill-mode: backwards;
   }
   
   /* =========================

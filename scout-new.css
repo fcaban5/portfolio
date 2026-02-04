@@ -15,10 +15,16 @@
 
 .image-grid-2col img {
   width: 100%;
-  height: auto;
+  height: 650px; /* Default height for top images */
+  object-fit: cover;
   display: block;
   border-radius: 6px;
   border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Different height for bottom/final images */
+.image-grid-2col.final-images img {
+  height: 600px; /* Shorter for the final product images */
 }
 
 /* Process layout with text + images side by side */
@@ -57,9 +63,16 @@
   gap: 24px;
 }
 
-.step-item img {
+.step-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px; /* Fixed height - adjust this number */
+}
+
+.step-item > img {
   width: 100%;
-  height: auto;
+  height: 600px; /* Fixed height for single images */
+  object-fit: cover;
   display: block;
   border-radius: 6px;
   border: 1px solid rgba(255,255,255,0.08);
@@ -69,12 +82,18 @@
 .step-double {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 12px;
   margin-bottom: 12px;
+  height: 600px; /* Same total height as single image */
 }
 
 .step-double img {
-  margin-bottom: 0;
+  width: 100%;
+  height: calc((600px - 12px) / 2); /* Split height evenly between 2 images minus gap */
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 .step-caption {
@@ -82,6 +101,7 @@
   line-height: 20px;
   color: rgba(255,255,255,0.6);
   margin: 0;
+  margin-top: auto; /* Push to bottom */
 }
 
 /* Context card with 3 items */
